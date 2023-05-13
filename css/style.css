@@ -7,4 +7,85 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /* GENERAL */
+
+main{
+    height: calc(100vh - 100px);
+}
+
+footer{
+    height: 100px;
+}
+
+
+
+
+
+/* MAIN */
+
+.user-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.user-img div{
+    background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+.container-footer{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    width: clac(100% / 3);
+}
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug main{
+    background-color: aqua;
+}
+
+.debug footer{
+    background-color: blueviolet;
+}
+
+.debug .column{
+    background-color: brown;
+}
