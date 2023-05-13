@@ -25,6 +25,7 @@ main{
 
 footer{
     height: 100px;
+    background-color: #222222;
 }
 
 
@@ -32,7 +33,7 @@ footer{
 
 
 /* MAIN */
-
+/* 
 .user-img{
     display: flex;
     flex-wrap: wrap;
@@ -45,7 +46,7 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
 
 
@@ -69,7 +70,9 @@ footer{
     width: clac(100% / 3);
 }
 
-
+i{
+    font-size: 40px;
+}
 
 
 
@@ -82,9 +85,9 @@ footer{
     background-color: aqua;
 }
 
-.debug footer{
+/* .debug footer{
     background-color: blueviolet;
-}
+} */
 
 .debug .column{
     background-color: brown;
